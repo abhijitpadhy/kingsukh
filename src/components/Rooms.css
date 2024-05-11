@@ -1,0 +1,99 @@
+/* .HeadingContainer {
+    text-align: center;
+    margin-bottom: 4rem;
+  } */
+  /* .HeadingContainer h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  .HeadingContainer h3 {
+    font-size: 1.5rem;
+    color: #666;
+  } */
+  .sub-head{
+    font-size: 30px;
+  }
+  .Section {
+    padding: 32px 0;
+    background-color: #C4DDFF;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .Section .destinations {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 0 32px;
+    justify-items: center;
+  }
+  .Section .destinations .destination {
+    width: 100%;
+    max-width: 600px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 32px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .Section .destinations .destination:hover {
+    transform: translateY(-0.5rem);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    background-color: #7FB5FF;
+  }
+  .Section .destinations .destination img {
+    width: 100%;
+    height: auto;
+    border-radius: 32px;
+  }
+  .Section .destinations .destination h3 {
+    margin-top: 16px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bolder;
+  }
+  .Section .destinations .destination p {
+    font-size: 18px;
+    color: #000;
+    font-weight: 600;
+  }
+  .Section .destinations .destination .info {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Section .destinations .destination .info h4 {
+    font-size: 18px;
+    color: #000;
+    font-weight: bold;
+    margin: 0 auto;
+  }
+  .Section .destinations .destination .info .book-now-btn {
+    padding: 12px 20px;
+    background-color: #001D6E;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: bolder;
+    font-size: 15px;
+  }
+  .Section .destinations .destination .info .book-now-btn:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  /* Media query for smaller screens */
+  @media screen and (max-width: 768px) {
+    .Section .destinations {
+      grid-template-columns: 1fr;
+    }
+    .Section .destinations .destination .info .book-now-btn{
+      padding: 8px 16px;
+      font-size: 12px;
+    }
+  }
+  
